@@ -1,8 +1,10 @@
-# React + Vite
+# React rounting basic
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+En esta lección hemos aprendido como crear rutas en nuestra aplicación de React. Para ello hemos utilizado el paquete react-router-dom.
 
-Currently, two official plugins are available:
+Hemos visto como crear rutas usando `<Route>` y como añadir los componentes que queremos que se muestren en cada ruta.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para navegar entre rutas hemos visto como usar el componente `<Link>` y como usar el hook `Navigate` para redirigir a una ruta (ejemplo del usuario que NO ha hecho login y no puede ver la página HOME).
+
+Los `NavLink` son una variante de los `Link` que nos permiten añadir estilos a los enlaces activos (ejemplo de la barra de navegación).
+
